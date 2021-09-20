@@ -1,0 +1,199 @@
+@media (width: 1024px) {
+  .thirdScreen {
+    width: 1024px;
+    height: 768px;
+    padding: 121px 60px 60px 141px;
+
+    position: relative;
+    &__bottle {
+      position: absolute;
+      top: 80px;
+      left: 50px;
+      width: 233px;
+      height: 689px;
+      z-index: 5;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    &__content {
+      width: 823px;
+      height: 573px;
+      padding-top: 62px;
+      padding-right: 132px;
+      padding-bottom: 15px;
+      padding-left: 120px;
+      &__modal {
+        display: none;
+        position: relative;
+        &__close {
+          width: 34px;
+          height: 35px;
+          background-color: #272727;
+          position: absolute;
+          top: -20px;
+          right: -100px;
+          border: none;
+          background: none;
+          img {
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+      &__main {
+        display: block;
+      }
+    }
+
+    &__list {
+      &__wrapper {
+        padding-left: 113px;
+        display: flex;
+      }
+      &__content {
+        text-decoration: none;
+        list-style: none;
+      }
+      &__num {
+        margin-top: 23px;
+        color: #8cc9e8;
+        font-size: 25px;
+      }
+      &__text {
+        margin-top: 14px;
+        color: #2e2e2e;
+        font-size: 23px;
+      }
+      &__buttons {
+        margin-top: 40px;
+        padding-left: 113px;
+        width: 200px;
+        height: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__prev {
+          display: flex;
+          align-items: center;
+          img {
+            width: 9px;
+            height: 16px;
+          }
+        }
+        &__next {
+          display: flex;
+          align-items: center;
+          img {
+            width: 9px;
+            height: 16px;
+          }
+        }
+      }
+      &__dots {
+        width: 34px;
+        display: flex;
+        justify-content: space-between;
+      }
+      &__dot {
+        width: 11px;
+        height: 11px;
+        background-color: #fc6da9;
+        border-radius: 100%;
+        text-decoration: none;
+        list-style: none;
+      }
+    }
+
+    &__header {
+      padding-left: 113px;
+    }
+    &__subtitle {
+      color: #242424;
+      font-size: 27px;
+      text-transform: uppercase;
+      font-family: "DIN Pro";
+      font-weight: 400;
+    }
+    &__title {
+      color: #242424;
+      font-size: 90px;
+      line-height: 100px;
+      font-family: "Gilroy";
+      font-weight: 400;
+      span {
+        font-family: "Gilroy Extrabold";
+        font-weight: 900;
+      }
+    }
+    &__cards {
+      margin-top: 77px;
+      display: flex;
+      justify-content: space-between;
+      width: 742px;
+      height: 265px;
+      z-index: 1;
+    }
+    &__card_left {
+      position: relative;
+      padding: 54px 50px 43px 130px;
+      min-width: 414px;
+      height: 265px;
+      box-shadow: 3px 4px 116px 9px rgba(157, 185, 198, 0.39);
+      border-radius: 40px;
+      background-color: #ffffff;
+      font-size: 23px;
+      font-family: "DIN Pro";
+      font-weight: 400;
+      &:before {
+        content: "";
+        width: 68px;
+        height: 63px;
+        background: url("/src/img/screen_3/icon1.png") center center/cover;
+        position: absolute;
+        top: -33px;
+        left: 129px;
+      }
+    }
+    &__card_right_wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__card_right {
+      position: relative;
+      padding: 54px 39px 45px 44px;
+      width: 263px;
+      height: 150px;
+      box-shadow: 3px 4px 116px 9px rgba(157, 185, 198, 0.39);
+      border-radius: 40px;
+      background-color: #ffffff;
+      font-size: 23px;
+      font-family: "DIN Pro";
+      font-weight: 400;
+      &:before {
+        content: "";
+        width: 70px;
+        height: 58px;
+        background: url("/src/img/screen_3/icon2.png") center center/cover;
+        position: absolute;
+        top: -25px;
+        left: 40px;
+      }
+    }
+    &__button {
+      margin: 36px;
+      width: 289px;
+      height: 81px;
+      border: none;
+      cursor: pointer;
+      background: none;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
